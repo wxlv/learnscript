@@ -19,14 +19,14 @@
 获取互助码 = type=cron,cronexp="20 13 * * 6",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_get_share_code.js
 金榜创造营 = type=cron,cronexp="13 1,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_gold_creator.js
 东东健康社区 = type=cron,cronexp="13 1,6,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_health.js
-东东健康社区收集能量 = type=cron,cronexp="5-45/20 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_health_collect.js
+东东健康社区收集能量 = type=cron,cronexp="19 0-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_health_collect.js
 东东工厂 = type=cron,cronexp="25 0-23/1 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jdfactory.js
-京东赚赚 = type=cron,cronexp="30 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jdzz.js
-领金贴 = type=cron,cronexp="40 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jin_tie.js
+京东赚赚 = type=cron,cronexp="2 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jdzz.js
+领金贴 = type=cron,cronexp="1 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jin_tie.js
 京喜领88元红包 = type=cron,cronexp="4 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jxlhb.js
 惊喜牧场 = type=cron,cronexp="20 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jxmc.js
 京喜农场 = type=cron,cronexp="0 9,12,18 * * *",timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jxnc.js
-京东快递签到 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_kd.js
+京东快递签到 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_kd.js
 幸运大转盘 = type=cron,cronexp="4 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_market_lottery.js
 京东摇钱树 = type=cron,cronexp="3 0-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_moneyTree.js
 京东秒秒币 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_ms.js
@@ -37,13 +37,18 @@
 京东保价 = type=cron,cronexp="0 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_price.js
 京东全民开红包 = type=cron,cronexp="1 1,2,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_redPacket.js
 闪购盲盒 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_sgmh.js
-进店领豆 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_shop.js
+进店领豆 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_shop.js
 东东小窝 = type=cron,cronexp="16 22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_small_home.js
 天天加速 = type=cron,cronexp="8 0-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_speed.js
 京东极速版红包 = type=cron,cronexp="25 0,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_speed_redpocke.js
 京东极速版 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=33600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_speed_sign.js
-东东超市 = type=cron,cronexp="19 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_superMarket.js
-取关京东店铺商品 = type=cron,cronexp="55 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_unsubscribe.js
+东东超市 = type=cron,cronexp="2 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_superMarket.js
+惊喜大作战 = type=cron,cronexp="1 0-23/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_jxdzz.js
+电竞预言家 = type=cron,cronexp="32 7-23/5 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_djyyj.js
+东东玩家 = type=cron,cronexp="32 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js
+京东手机狂欢城 = type=cron,cronexp=0 0-18/6 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_carnivalcity.js
+京东手机狂欢城助力 = type=cron,cronexp=6 0,8,13 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_carnivalcity_help.js
+领券中心签到 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_ccSign.js
 
 [MITM]
 hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com
