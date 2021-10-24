@@ -21,7 +21,7 @@
 东东健康社区 = type=cron,cronexp="13 1,6,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_health.js
 东东健康社区收集能量 = type=cron,cronexp="19 0-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_health_collect.js
 东东工厂 = type=cron,cronexp="25 0-23/1 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jdfactory.js
-京东赚赚 = type=cron,cronexp="2 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jdzz.js
+京东赚赚 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jdzz.js
 领金贴 = type=cron,cronexp="1 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jin_tie.js
 京喜领88元红包 = type=cron,cronexp="4 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jxlhb.js
 惊喜牧场 = type=cron,cronexp="20 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_jxmc.js
@@ -34,7 +34,7 @@
 东东萌宠 = type=cron,cronexp="15 6-18/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_pet.js
 京东金融养猪猪 = type=cron,cronexp="12 0-23/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_pigPet.js
 京东种豆得豆 = type=cron,cronexp="1 7-21/2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_plantBean.js
-京东保价 = type=cron,cronexp="0 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_price.js
+京东保价 = type=cron,cronexp="0 2 0 * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_price.js
 京东全民开红包 = type=cron,cronexp="1 1,2,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_redPacket.js
 闪购盲盒 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_sgmh.js
 进店领豆 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_shop.js
@@ -42,13 +42,11 @@
 天天加速 = type=cron,cronexp="8 0-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_speed.js
 京东极速版红包 = type=cron,cronexp="25 0,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_speed_redpocke.js
 京东极速版 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=33600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_speed_sign.js
-东东超市 = type=cron,cronexp="2 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_superMarket.js
+东东超市 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_superMarket.js
 惊喜大作战 = type=cron,cronexp="1 0-23/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_jxdzz.js
 电竞预言家 = type=cron,cronexp="32 7-23/5 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_djyyj.js
 东东玩家 = type=cron,cronexp="32 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js
-京东手机狂欢城 = type=cron,cronexp=0 0-18/6 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_carnivalcity.js
-京东手机狂欢城助力 = type=cron,cronexp=6 0,8,13 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_carnivalcity_help.js
-领券中心签到 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_ccSign.js
+领券中心签到 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_ccSign.js
 
 [MITM]
 hostname = %APPEND% me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com
