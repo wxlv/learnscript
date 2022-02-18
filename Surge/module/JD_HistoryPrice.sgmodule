@@ -1,0 +1,10 @@
+#!name=京东历史价格
+#!desc=版本：v0.0.1，最后更新：2022年02月18日
+#!system=ios
+
+[Script]
+# > 京东App 历史价格 
+京东比价 = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js
+
+[MITM]
+hostname = %INSERT% api.m.jd.com
