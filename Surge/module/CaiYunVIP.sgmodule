@@ -1,0 +1,10 @@
+#!name=彩云VIP模块
+#!desc=彩云模拟VIP环境模块,版本：2022-03-21
+#system=ios
+
+[Script]
+# > 彩云天气_SVIP
+彩云天气 = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/cytq.js
+
+[MITM]
+hostname = %APPEND% biz.caiyunapp.com
