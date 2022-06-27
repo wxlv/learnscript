@@ -44,7 +44,7 @@
                         <string>114.114.114.114</string>
                     </array>
                     <key>ServerURL</key>
-                    <string>https://a.passcloud.xyz/cdn</string>
+                    <string>https://a.passcloud.xyz/dns-query</string>
                 </dict>
             </dict>
         </array>
