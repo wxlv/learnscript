@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadDisplayName</key>
+        <string>metaVray-iQDNS</string>
+        <key>PayloadIdentifier</key>
+        <string>com.metavray.dns.iQDNS</string>
+        <key>PayloadUUID</key>
+        <string>C8D7ECAB-9CDB-49A2-8BC7-2EF3AF680270</string>
+        <key>PayloadDescription</key>
+        <string>iQDNS DOH FOR CDN</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadDisplayName</key>
+                <string>iQDNS DOH FOR CDN</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.0F0FFBED-35FB-44AE-A175-C1AE3CBC034C</string>
+                <key>PayloadUUID</key>
+                <string>1770CC3E-1F07-4D7A-9F0F-63B2D0D01582</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>ProhibitDisablement</key>
+                <false/>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>119.29.29.29</string>
+                        <string>119.28.28.28</string>
+                        <string>202.96.209.5</string>
+                        <string>202.96.209.133</string>
+                        <string>114.114.114.114</string>
+                    </array>
+                    <key>ServerURL</key>
+                    <string>https://a.passcloud.xyz/cdn</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
